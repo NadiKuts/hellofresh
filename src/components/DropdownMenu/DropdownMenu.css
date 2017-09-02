@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.Tab {
+  background-color: #FFFFFF;
+  color: #55595C;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  border: none;
+  padding: 0 20px;
+  transition: 0.3s;
+}
+.Tab:hover {
+  background-color: #F4F9E8;
+  border-bottom: 5px solid #91C11E;
+}
+i {
+  border: 1px solid #55595C;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-left: 10px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
